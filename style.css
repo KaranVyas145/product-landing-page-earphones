@@ -82,7 +82,8 @@ body {
 
 #home {
     width: 100%;
-    height: 500px;
+    height: 100%;
+    padding: 200px 0 200px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -376,6 +377,10 @@ button {
     #home::before {
         opacity: 0.7;
         background-image: url(https://images.unsplash.com/photo-1624814448264-f2273a961d33?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGVhcnBob25lc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100%;
     }
     #home .buy-now {
         color: white;
@@ -416,6 +421,9 @@ button {
     #home::before {
         background-image: url(https://images.unsplash.com/photo-1624814448264-f2273a961d33?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGVhcnBob25lc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60);
         opacity: 0.7;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
     #video {
         height: 300px;
