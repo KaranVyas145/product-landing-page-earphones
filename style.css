@@ -92,8 +92,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url(https://images.unsplash.com/photo-1518609878373-06d740f60d8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
-    /* background-image: url(images/sumeet-b-6N37Z_DtiEo-unsplash.jpg); */
+    background-image: url(images/home-bg-1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -224,7 +223,7 @@
 
 #services {
     height: 500px;
-    background-image: url(https://images.unsplash.com/photo-1567928513899-997d98489fbd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    background-image: url(images/services-bg.jpg);
     background-position: center;
     background-size: cover;
     display: grid;
@@ -268,7 +267,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(https://images.unsplash.com/photo-1483032469466-b937c425697b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    background-image: url(images/about-bg.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -295,7 +294,7 @@
     align-items: center;
     flex-direction: column;
     padding: 30px;
-    background-image: url(https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80);
+    background-image: url(images/contact-us-bg.jpg);
     background-position: center;
     background-size: cover;
     /* background: linear-gradient( rgb(255, 126, 126), rgb(176, 41, 255)); */
@@ -395,7 +394,7 @@ button {
         height: 300px;
     }
     #home::before {
-        background-image: url(https://images.unsplash.com/photo-1624814448264-f2273a961d33?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGVhcnBob25lc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60);
+        background-image: url(images/home-bg-2.jpg);
         opacity: 0.7;
         position: fixed;
     }
@@ -436,7 +435,7 @@ button {
 
 @media (max-width: 850px) and (max-height: 400px) {
     #home::before {
-        background-image: url(https://images.unsplash.com/photo-1624814448264-f2273a961d33?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGVhcnBob25lc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60);
+        background-image: url(images/home-bg-2.jpg);
         opacity: 0.7;
         position: fixed;
     }
