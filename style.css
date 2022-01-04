@@ -10,6 +10,10 @@
     --font-family-content: 'Lato', sans-serif;
 }
 
+body {
+    background-color: #6599ff;
+}
+
 #main {
     font-family: var(--font-family-content);
 }
@@ -82,7 +86,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #6599ff;
 }
 
 #home::before {
