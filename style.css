@@ -40,6 +40,12 @@ body {
     text-align: center;
 }
 
+#header-img{
+    border-radius: 50%;
+    filter: invert(100%);
+    height:50px;
+}
+
 .logo .title {
     margin: 0 5px;
     font-family: 'Yellowtail';
