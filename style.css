@@ -317,6 +317,14 @@ input[type="email"] {
     font-size: 14px;
 }
 
+#contact form textarea:hover{
+    background-color: white;
+}
+
+#contact form input:hover{
+    background-color: rgba(255, 255, 255, 1);
+}
+
 .center {
     text-align: center;
 }
@@ -337,11 +345,6 @@ footer {
     padding: 20px 0;
     color: white;
     background-color: black;
-}
-
-#contact form input:hover,
-textarea:hover {
-    background-color: rgb(228, 228, 228);
 }
 
 button {
@@ -376,6 +379,8 @@ button {
     font-size: 2rem;
 }
 
+
+/* Media Queries  */
 @media (max-width: 600px) {
     #video {
         height: 300px;
