@@ -10,6 +10,10 @@
     --font-family-content: 'Lato', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #6599ff;
 }
